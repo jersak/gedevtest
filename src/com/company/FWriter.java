@@ -4,7 +4,6 @@ import com.opencsv.CSVWriter;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -12,7 +11,6 @@ import java.util.List;
  */
 public class FWriter {
 
-    //writes the data into a CSV file
     public static void writeToCsvFile (List<CityInfo> cityList) {
 
         CSVWriter writer = null;

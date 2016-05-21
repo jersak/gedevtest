@@ -1,10 +1,10 @@
 package com.company;
 
-import java.util.List;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+
+import java.util.List;
 
 public class DataFetcher {
 	

@@ -30,9 +30,9 @@ public class CityInfo {
 
 	public String getmType() {
 		return mType;
-	}
+    }
 
-	public String[] getData() {
+    public String[] getData() {
 		String[] data = new String[5];
 		data[0] = String.valueOf(getmId());
 		data[1] = getmName();
