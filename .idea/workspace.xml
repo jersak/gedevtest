@@ -8,10 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd4fca35-020b-43df-813d-b896cb22cd80" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/cityinfo.csv" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/CityInfo.java" afterPath="$PROJECT_DIR$/src/com/company/CityInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/DataFetcher.java" afterPath="$PROJECT_DIR$/src/com/company/DataFetcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/FWriter.java" afterPath="$PROJECT_DIR$/src/com/company/FWriter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Services.java" afterPath="$PROJECT_DIR$/src/com/company/Services.java" />
     </list>
     <ignored path="gedevtest.iws" />
     <ignored path=".idea/workspace.xml" />
