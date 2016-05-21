@@ -19,19 +19,24 @@ public class DataFetcher {
 			@Override
 			public void onResponse(Call<List<CityInfo>> call, Response<List<CityInfo>> response) {
 				List<CityInfo> cityInfo = response.body();
+				if (cityInfo == null){
+					System.out.println("Invalid information retrieved.");
+					return;
+				}
 				if (cityInfo.size() > 0){
 					System.out.println("Success.");
-					FWriter.createcsvfile(cityInfo);
+					FWriter.writeToCsvFile(cityInfo);
+					System.exit(0);
 				} else {
 					System.out.println("No match for the city name supplied.");
+					System.exit(0);
 				}
 			}
 			
 			@Override
 			public void onFailure(Call<List<CityInfo>> arg0, Throwable t) {
-
-				//t.printStackTrace();
 				System.out.println("Webservice endpoint is currently unreachable.\nPlease check your internet connection or try again in a few minutes.");
+				System.exit(0);
 			}
 		});
 		
